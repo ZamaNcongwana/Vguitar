@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temu | Guitar</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="temu_htm_files/xr_main.css">
+    <link rel="stylesheet" href="temu_htm_files/custom_styles.css">
+    <link rel="stylesheet" href="temu_htm_files/xr_text.css">
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="images/images.jpeg" type="image/x-icon">
+
+</head>
+
+<body>
+
+    <div class="container">      
+        <div class="product-link">
+            <a href="https://temu.to/k/ezci5liln83" target="_blank" rel="noopener noreferrer">
+                <img src="images/temu.png" alt="Product Image" style="width:100%; height:auto;">
+            </a>
+        </div>
+    </div>
+    
+    <!-- Single Products -->
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <a href="https://temu.to/k/ee6cn37vhg8" target="_blank" rel="noopener noreferrer">
+                    <img src="images/banner.png" alt="Product Image" style="width:100%; height:auto;">
+                </a>
+
+                <img class="xr_ap" src="images/10.jpg" alt="" title="" width="100">
+                <a href="" onclick="return(false);" onmousedown="xr_ppir(this);">
+                <img src="images/gallery-1.jpg" alt="" width="100" id="ProductImg"></a>
+
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="images/gallery-1.jpg" alt="" width="100" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/guitar-blue.jpg" alt="" width="100" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/guitar-light-brown.jpg" alt="" width="100" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/guitar-red.jpg" alt="" width="100" class="small-img">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-2">
+
+                <h3>Product Details <i class="fa fa-indent"></i></h3>
+                <br>
+                <p>Essential for Professionals:38-Inch Acoustic Guitar with a Shiny Finish. Ideal for Beginners of All Genders. This Starter Folk Guitar Includes Nine Accessories: a Capo, Guitar Backpack, Picks, an Adjustable Strap, and a Pickguard.</p>
+            </div>       
+        </div>
+    </div>
+
+    <!-- Cart items details -->
+    <div class="small-container cart-page">
+        
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>R400</td>
+                </tr>
+                <tr>
+                    <td>Tax(15%)</td>
+                    <td>R60</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>R460</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="col-2">    
+            <a href="#" class="btn">BUY NOW</a>       
+        </div>
+    </div>
+
+
+    
+
+    <!-- javascript -->
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px"
+            }
+            else {
+                MenuItems.style.maxHeight = "0px"
+            }
+        }
+    </script>
+
+    <!-- javascript -->
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px"
+            }
+            else {
+                MenuItems.style.maxHeight = "0px"
+            }
+        }
+    </script>
+
+    <!-- product gallery -->
+    <script>
+        var ProductImg = document.getElementById("ProductImg");
+        var SmallImg = document.getElementsByClassName("small-img");
+
+        SmallImg[0].onclick = function () {
+            ProductImg.src = SmallImg[0].src;
+        }
+        SmallImg[1].onclick = function () {
+            ProductImg.src = SmallImg[1].src;
+        }
+        SmallImg[2].onclick = function () {
+            ProductImg.src = SmallImg[2].src;
+        }
+        SmallImg[3].onclick = function () {
+            ProductImg.src = SmallImg[3].src;
+        }
+
+    </script>
+
+</body>
+
+</html>
